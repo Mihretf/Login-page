@@ -55,6 +55,23 @@ ecommerce_project/
     │   └── product.routes.js
     └── services/
         └── product.service.js
+
+
+
+├── login-frontend/ # React frontend
+│ ├── public/
+│ ├── src/
+│ │ ├── components/ # React pages: Dashboard, Login, Register
+│ │ ├── styles/ # CSS files for each page
+│ │ └── App.js, index.js ...
+├── src/ # Node.js + Express backend
+│ ├── config/ # DB configuration
+│ ├── controllers/ # Auth & Product controllers
+│ ├── models/ # Mongoose schemas
+│ ├── repository/ # Optional service layer
+│ ├── routes/ # Auth & Product routes
+│ ├── services/ # (If used) extra logic or helpers
+│ └── index.js # Main backend server entry
 ```
 
 ## Getting Started
