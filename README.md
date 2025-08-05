@@ -1,12 +1,40 @@
-# E-commerce REST API
+# MERN Product Dashboard
 
-A simple RESTful API for managing products in an e-commerce system, built with Node.js, Express, and MongoDB.
+A full-stack MERN (MongoDB, Express, React, Node.js) web application that allows users to **register**, **log in**, and **manage products** in a dashboard. Authenticated users can add, edit, delete, and view products stored in a MongoDB database.
 
-## Features
-- CRUD operations for products (Create, Read, Update, Delete)
-- MongoDB database integration using Mongoose
-- Proper error handling and status codes
-- Modular folder structure for scalability
+---
+
+## ✨ Features
+
+- ✅ User Registration & Login (with JWT-based authentication)
+- 🔒 Protected Dashboard (access restricted to logged-in users)
+- 📦 Product CRUD:
+  - Add Product
+  - View All Products
+  - Edit Product
+  - Delete Product
+- 🖥️ Responsive and clean UI (React)
+- 🛠️ Backend built with Express and MongoDB
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend:
+- React
+- React Router
+- CSS (custom-styled or modularized)
+
+### Backend:
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- JWT (JSON Web Tokens) for authentication
+
+---
+
+
+
 
 ## Folder Structure
 ```
